@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --color-primary: rgb(169, 68, 216);
+  --color-secondary: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#app-container {
+  height: 100vh;
+}
+
+.background-color-primary {
+  background-color: var(--color-primary);
+}
+
+.background-color-secondary {
+  background-color: var(--color-secondary);
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-basis-35 {
+  flex-basis: 35%;
+}
+
+.flex-basis-65 {
+  flex-basis: 65%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.form-button-login {
+  width: 6vw;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+}
+
+.form-input-login {
+  width: 60%;
+  padding: 10px;
+  border-radius: 14px;
+  border: none;
+  background-color: #ddd;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+#form-login {
+  margin: 20px;
+}
+
+#form-button-sign-up {
+  margin: 10px;
+}
+
+#login-form-container {
+  background-color: white;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.text-align-center {
+  text-align: center;
+  width: 100%;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-weight-400 {
+  font-weight: 400;
+}

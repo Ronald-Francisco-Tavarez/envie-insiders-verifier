@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to Envie Insiders</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <div class="flex-container flex-direction-row" id="app-container">
+        <div class="flex-container flex-direction-column flex-basis-65 flex-justify-center" id="login-form-container">
+          <h1 class="margin-10 text-align-center">Login to Your Account</h1>
+          <h4 class="margin-10 text-align-center text-weight-400">To Get Started</h4>
+          <form id="form-login" class="flex-container flex-direction-column flex-align-center" action="generate_qr.html" method="get">
+            <input placeholder="Username" class="form-input-login" type="text" name="username" id="username">
+            <input placeholder="Password" class="form-input-login" type="text" name="password" id="password">
+            <button class="background-color-primary form-button-login text-color-white" type="submit">Login</button>
+          </form>
+        </div>
+        <div class="background-color-primary flex-container flex-direction-column flex-basis-35 flex-align-center flex-justify-center">
+          <h1 class="margin-10 text-align-center text-color-white">New Resident?</h1>
+          <h4 class="margin-10 text-align-center text-color-white text-weight-400">
+            Sign Up and discover everything<br>
+            that being an envie resident does for you!
+          </h4>
+          <form action="sign_up.html" method="get">
+            <button id="form-button-sign-up" class="form-button-login" type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
 </body>
 </html>
